@@ -3,7 +3,7 @@ public class mahasiswa {
     String nama;
     String prodi;
 
-    void Mahasiswa(String NIM, String nama, String prodi){
+    mahasiswa(String NIM, String nama, String prodi){
         NIM = this.NIM;
         nama = this.nama;
         prodi = this.prodi;
