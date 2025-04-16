@@ -13,5 +13,6 @@ public class matakuliahkel4 {
         System.out.println("Kode Matakuliah :  " + kodemk );
         System.out.println("Nama Matakuliah :  " + namamk);
         System.out.println("Jumlah SKS : " + sks );
+        System.out.println("--------------------------------");
     }
 }
