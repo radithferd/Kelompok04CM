@@ -4,9 +4,9 @@ public class matakuliahkel4 {
     int sks;
 
     matakuliahkel4 (String kodemk, String namamk, int sks) {
-        kodemk = this.kodemk;
-        namamk = this.namamk;
-        sks = this.sks;
+        this.kodemk = kodemk;
+        this.namamk = namamk;
+        this.sks = sks;
     }
 
     void tampilmatkul() {

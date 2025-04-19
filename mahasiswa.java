@@ -4,9 +4,9 @@ public class mahasiswa {
     String prodi;
 
     mahasiswa(String NIM, String nama, String prodi){
-        NIM = this.NIM;
-        nama = this.nama;
-        prodi = this.prodi;
+        this.NIM = NIM;
+        this.nama = nama;
+        this.prodi = prodi;
     }
 
     void tampilMahasiswa(){
