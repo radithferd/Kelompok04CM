@@ -6,7 +6,7 @@ public class penilaian {
     double uas;
     double nilaiakhir;
 
-    penilaian(mahasiswa mahasiswa, matakuliahkel4 matakuliah, double tugas, double uts, double uas, double nilaiakhir) {
+    penilaian(mahasiswa mahasiswa, matakuliahkel4 matakuliah, double tugas, double uts, double uas) {
         this.mahasiswa = mahasiswa;
         this.matakuliah = matakuliah;
         this.tugas = tugas;
