@@ -8,7 +8,7 @@ public class mahasiswademo {
         matakuliahkel4[] daftarMatkul = new matakuliahkel4[3];
 
         daftarMahasiswa[0] = new mahasiswa("22001", "Ali Rahman", "Informatika");
-        daftarMahasiswa[1] = new mahasiswa ("22002", "Budi Sntoso", "Informatika");
+        daftarMahasiswa[1] = new mahasiswa ("22002", "Budi Santoso", "Informatika");
         daftarMahasiswa[2] = new mahasiswa ("22003", "Citra Dewi", "Sistem Informasi Bisnis");
 
         daftarMatkul [0] = new matakuliahkel4("MK001", "Struktur Data", 3);
@@ -16,11 +16,11 @@ public class mahasiswademo {
         daftarMatkul [2] = new matakuliahkel4("MK003", "Desain Web", 3);
 
         penilaian daftarNilai [] = new penilaian[5];
-        daftarNilai[0] = new penilaian(daftarMahasiswa[0], daftarMatkul[0], 80, 85, 90, 90.5);
-        daftarNilai[1] = new penilaian(daftarMahasiswa[0], daftarMatkul[1], 60, 75, 70, 85.5);
-        daftarNilai[2] = new penilaian(daftarMahasiswa[1], daftarMatkul[0], 75, 75, 80, 77.5);
-        daftarNilai[3] = new penilaian(daftarMahasiswa[2], daftarMatkul[1], 85, 90, 95, 75.5);
-        daftarNilai[4] = new penilaian(daftarMahasiswa[2], daftarMatkul[2], 80, 90, 65, 68.5);
+        daftarNilai[0] = new penilaian(daftarMahasiswa[0], daftarMatkul[0], 80, 85, 90);
+        daftarNilai[1] = new penilaian(daftarMahasiswa[0], daftarMatkul[1], 60, 75, 70);
+        daftarNilai[2] = new penilaian(daftarMahasiswa[1], daftarMatkul[0], 75, 70, 80);
+        daftarNilai[3] = new penilaian(daftarMahasiswa[2], daftarMatkul[1], 85, 90, 95);
+        daftarNilai[4] = new penilaian(daftarMahasiswa[2], daftarMatkul[2], 80, 90, 65);
 
         while (true) {
             System.out.println("=== MENU SISTEM AKADEMIK");
